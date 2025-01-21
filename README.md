@@ -47,24 +47,24 @@ La seguridad de la API está implementada mediante Spring Security y JWT. Los en
 ## Endpoints principales
 
 ### Tópicos
-- **GET** `/api/topicos` - Listar todos los tópicos
-- **GET** `/api/topicos/{id}` - Obtener un tópico por ID
-- **POST** `/api/topicos` - Crear un nuevo tópico
-- **PUT** `/api/topicos/{id}` - Actualizar un tópico existente
-- **DELETE** `/api/topicos/{id}` - Eliminar un tópico
+- **GET** `/topicos` - Listar todos los tópicos
+- **GET** `/topicos/{id}` - Obtener un tópico por ID
+- **POST** `/topicos` - Crear un nuevo tópico
+- **PUT** `/topicos/{id}` - Actualizar un tópico existente
+- **DELETE** `/topicos/{id}` - Eliminar un tópico
 
 ### Usuarios
-- **POST** `/api/usuarios` - Crear un nuevo usuario
-- **GET** `/api/usuarios` - Obtener todos los usuarios
+- **POST** `/usuarios` - Crear un nuevo usuario
+- **GET** `/usuarios` - Obtener todos los usuarios
 
 ### Respuestas
-- **POST** `/api/respuestas` - Crear una nueva respuesta
-- **GET** `/api/respuestas` - Listar todas las respuestas
+- **POST** `/respuestas` - Crear una nueva respuesta
+- **GET** `/respuestas` - Listar todas las respuestas
 
 ### Cursos
-- **POST** `/api/cursos` - Crear un nuevo curso
-- **GET** `/api/cursos` - Obtener todos los cursos
+- **POST** `/cursos` - Crear un nuevo curso
+- **GET** `/cursos` - Obtener todos los cursos
 
 ### Autenticación
-- **POST** `/api/auth/login` - Autenticarse y obtener un token JWT
+- **POST** `/login` - Autenticarse y obtener un token JWT
 
